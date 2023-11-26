@@ -1,0 +1,372 @@
+body{
+  background-color: #fff;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+
+
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+
+/* Navigation */
+
+.nav-link{
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-nav{
+  padding-right: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+
+.logo-img{
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+
+/* First section */
+
+.illustration-img-1{
+  width: 100%;
+
+}
+
+.First-sec-text{
+  padding-bottom: 5.5rem;
+  padding-top: 5.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-left: 3.5rem;
+
+}
+
+
+.input-group{
+  width: 20%;
+  padding-left: 3.5rem;
+  padding-right: 10.5rem;
+
+}
+
+.form-control{
+  padding-left: 1.5rem;
+}
+
+.btn-primary{
+  margin-right: 1.5rem;
+}
+
+.button-form{
+width: 70%;
+margin-left:3.5rem;
+
+}
+
+.try6{
+  width: 350px;
+  height: 40px;
+
+}
+
+.try7{
+  width: 130px;
+  height: 40px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: #0066ff;
+  color: #fff;
+}
+
+.try7:hover {
+  background-color: #0052cc;
+}
+
+.try8{
+  width: 80%;
+  margin-bottom: 15.5rem;
+}
+
+/* Second section */
+
+
+
+.illustration-img-2{
+  position: absolute;
+  right: 3.5rem;
+  top: 50.5rem;
+  display:block;
+
+  padding-right: 2.5rem;
+  width: 40%;
+  height: 50%;
+
+}
+
+.Second-section{
+
+  padding-bottom: 5.5rem;
+  background-color: #F6F6FE;
+
+
+}
+.bg-curve-img{
+  width: 100%;
+padding-top: 10.5rem;
+}
+
+
+
+
+
+.Second-sec-text{
+  padding-left: 3.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.green{
+  padding-left: 3.5rem;
+  color: green;
+
+}
+
+
+.testimonial-box{
+  background-color: #fff;
+  width: 400px;
+  height: 220px;
+  border: 1px ;
+  padding-left: 2.0rem;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+
+
+}
+
+.avatar-img{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 15px;
+}
+
+
+/* Third section */
+
+.third-section{
+  background-color:#585989;
+  color: #fff;
+}
+
+.container{
+  padding: 3.5rem;
+}
+
+.formm{
+  padding-bottom: 1.5rem;
+}
+
+.btn{
+  padding-bottom:   3.5rem;
+}
+
+/* Fourth section */
+
+
+.fourth-section{
+  background-color: #070439;
+  color: #fff;
+
+}
+
+.fth-row{
+margin-top: 3.5rem;
+
+}
+
+.c-1{
+  padding: 3.5rem;
+  align-items: center;
+
+
+}
+
+.c-2{
+  margin-top: 3.5rem;
+}
+
+.FA-1{
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
+
+}
+
+
+.fa-brands{
+  margin-top: 7.5rem;
+  margin-left: 0.25rem;
+
+}
+
+.tables{
+  margin-top: 3.5rem;
+  padding-top: 3.5rem;
+}
+
+
+@media screen and (max-width:375px) {
+
+
+  body{
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+  /* First Section */
+
+
+  .First-sec-text{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: -350px;
+    margin-bottom: 8.5rem;
+  }
+
+
+  .illustration-img-1{
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    margin-bottom: 3.5rem;
+    margin-top: 10.5rem;
+  }
+
+
+
+  .try3{
+    width: 100%;
+  }
+
+  .try7{
+
+    margin-top: 1.5rem;
+    width: 104%;
+  }
+
+.button-form{
+  position: relative;
+  bottom: -8.5rem;
+}
+
+
+/* Second section */
+
+.illustration-img-2{
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  top: 800px;
+  padding: 2.5rem;
+  margin-top: 3.5rem;
+
+
+}
+
+/* .bg-curve-img{
+
+  height: 50px;
+} */
+
+
+.Second-section{
+  margin-bottom: 8.5rem;
+
+}
+
+
+/* Third section */
+
+.container{
+  text-align: center;
+}
+
+.try2{
+  width: 80%;
+  padding-left: 3.8rem;
+  border-radius: 6px;
+
+}
+
+
+.try1{
+  width: 67%;
+  border-radius: 6px;
+  align-items: center;
+
+}
+
+
+/* fourth section */
+
+.fa-brands{
+  padding-bottom: 5.5rem;
+  margin-left: 10px;
+}
+.fa-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tables{
+  padding-left: 3.5rem;
+  padding-top: 0.25rem;
+
+}
+
+.logo-img{
+  padding-left: 3.5rem;
+}
+
+.fa-solids{
+  padding-left: 4.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
